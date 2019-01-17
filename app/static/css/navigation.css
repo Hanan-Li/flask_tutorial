@@ -1,0 +1,154 @@
+@media screen {
+  nav li {
+  display: inline-block;
+  position: relative;
+  }
+  .lt-ie8 nav li {
+  float: left;
+  }
+  nav li li {
+  display: block;
+  }
+  .lt-ie8 nav li li {
+  float: none;
+  }
+  nav li a {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  }
+  nav li div {
+  float: left;
+  z-index: 30;
+  position: absolute;
+  display: none;
+  background: #2c4f90;
+  padding: 30px 40px;
+  }
+  footer {
+  width: 100%;
+  /*min-width: 990px;*/
+  background: #00274c;
+  z-index: 15;
+  position: absolute;
+  bottom: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  border-top: #0b5595 5px solid;
+  font-weight: normal;
+  margin-top:80px;/*og:20*/
+  }
+  footer a {
+  color: #fff;
+  text-decoration: none;
+  }
+  footer a:hover {
+  text-decoration: underline;
+  }
+  footer p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal !important;
+  }
+  footer {
+  background: #0d3255 !important;
+  color: #fff;
+  height: 229px;
+  text-transform: none !important;
+  font-size: 1em;
+  line-height: 1.6em;
+  }
+  footer ul {
+  width: 21%;
+  padding: 0 2%;
+  margin: 2rem 0;
+  float: left;
+  border-left: 1px solid #046;
+  min-height: 130px;
+  }
+  footer ul:first-child {
+  padding-left: 0;
+  border-left: none;
+  }
+  footer ul li {
+  list-style-type: none;
+  }
+  footer h2 {
+  font-family: 'HelveticaNeueW01-57Cn', "Roboto Condensed", "Arial Narrow", arial, sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025rem;
+  }
+  footer ul li.logo,
+  footer h2 {
+  margin-bottom: 10px;
+  height: 30px;
+  }
+  footer ul span {
+  float: left;
+  line-height: 1.5rem;
+  margin-right: 2rem;
+  }
+  footer ul span li::before {
+  content: '\203A';
+  padding-right: 5px;
+  }
+  footer .main {
+  max-width: 70.5rem;
+  margin: 0 auto;
+  line-height:1;
+  }
+  footer .bottom-bar {
+  clear: both;
+  background: #024;
+  height: 29px;
+  line-height: 29px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  }
+  footer .bottom-bar span {
+  display: block;
+  max-width: 70.5rem;
+  margin: 0 auto;
+  }
+  div#off-canvas-footer-text {
+  line-height: 1.8;
+  margin-top: 1rem;
+  }
+  @media (max-width: 1024px) {
+    footer {
+    width: 100%;
+    height: auto !important;
+    position: initial;
+    }
+    footer .main ul {
+    width: 90%;
+    padding: 0 5%;
+    float: none;
+    display: block;
+    margin: 3rem 0;
+    border: none;;
+    }
+    footer .bottom-bar {
+    width: 100vw;
+    height: initial;
+    line-height: 1.68;
+    padding: 1rem 0;
+    }
+    footer .bottom-bar span {
+    margin: 0;
+    padding: 0 5%;
+    width: 90%;
+    }
+    .socialFeedsHolder {
+    display: none;
+    }
+    footer span.right {
+    float: none;
+    }
+  }
+}
+
